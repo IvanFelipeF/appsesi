@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "AppSesi",
-    "slug": "AppSesi",
+    "slug": "appsesi",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,10 +19,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.santosnab.appsesi"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1dabf73b-a9d6-422e-8435-9e324184b64d"
+      }
+    },
+    "owner": "santosnab"
   }
 }
